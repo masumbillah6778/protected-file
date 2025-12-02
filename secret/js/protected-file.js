@@ -20,11 +20,6 @@ function setCookie(name, value, days) {
   }
 
 
-      document.getElementById("password-form").style.display = "none";
-    } else {
-      alert("Incorrect password. Please try again.");
-    }
-  }
 
   function checkCookie() {
     var isProtected = getCookie("passwordProtected");
